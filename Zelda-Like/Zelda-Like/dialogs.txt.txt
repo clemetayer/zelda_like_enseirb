@@ -1,0 +1,8 @@
+Dialog NPC02 :
+
+NPC02 : Oh ! Quelqu'un !
+NPC02 : C'est assez rare de croiser des personnes par ici !
+Ikan : Je me suis échoué sur la rive à proximité ! Je cherche quelqu'un pour m'aider !
+NPC02 : Je ne peux pas faire grand chose, mais il y a une ville pas loin, continue un peu.
+Ikan : Merci ! Au revoir !
+NPC02 : Bon voyage !
