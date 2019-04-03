@@ -16,6 +16,7 @@ public struct DialogPage
 {
     public string text;
     public Color color;
+	public Sprite sprite;
 }
 
 // This class is used to correctly display a full dialog
