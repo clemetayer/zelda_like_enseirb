@@ -1,3 +1,15 @@
+Dialog Bill Board :
+Bill : Salut, c'est moi, Bill ! Bill Board !
+Bill : On m'a dit de te transmettre un message :
+??? : "Retrouve moi dehors, oh, et arrête de te perdre tout seul"
+??? : "Abruti"
+??? : "Enfin bon, plonge dans l'eau, c'est un raccourci"
+Bill : - signé : "Senseirb"
+Bill : Voilà, pour le message, repasse me voir si tu as pas compris (ou écouté, erhm).
+Bill : Je peux repéter ce message I N D E F I N I M E N T.
+Bill : à la prochaine !
+
+
 Dialog NPC02 cavern 1:
 
 NPC02 : Oh ! Quelqu'un !

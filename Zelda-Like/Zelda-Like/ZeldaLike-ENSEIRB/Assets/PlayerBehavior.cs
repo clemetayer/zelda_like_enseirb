@@ -129,10 +129,28 @@ public class PlayerBehavior : MonoBehaviour
             {
                 m_dialogDisplayer.SetDialog(m_closestNPCDialog.GetDialog());
             }
+			/*
             else 
             {
                 ShootFireball();
             }
+			*/
+        }
+		if (Input.GetKeyDown(KeyCode.Z))
+        {
+            ShootFireball('z');
+        }
+		if (Input.GetKeyDown(KeyCode.Q))
+        {
+            ShootFireball('q');
+        }
+		if (Input.GetKeyDown(KeyCode.S))
+        {
+            ShootFireball('s');
+        }
+		if (Input.GetKeyDown(KeyCode.D))
+        {
+            ShootFireball('d');
         }
     }
 
@@ -159,7 +177,7 @@ public class PlayerBehavior : MonoBehaviour
     }
 
     // Creates a fireball, and launches it
-    private void ShootFireball()
+    private void ShootFireball(char key)
     {
         GameObject newFireball = Instantiate(m_fireBall, this.transform) as GameObject;
 
@@ -167,10 +185,26 @@ public class PlayerBehavior : MonoBehaviour
 
         if (fireBallBehavior != null)
         {
+			if (key == 'z')
+			{
+				fireBallBehavior.Launch(new Vector2(0f, 1f));
+			}
+			if (key == 's')
+			{
+				fireBallBehavior.Launch(new Vector2(0f, -1f));
+			}
+			if (key == 'd')
+			{
+				fireBallBehavior.Launch(new Vector2(1f, 0f));
+			}
+			if (key == 'q')
+			{
+				fireBallBehavior.Launch(new Vector2(-1f, 0f));
+			}
             // Lauches the fireball upward
             // (Vector2 represents a direction in x and y ;
             // so Vector2(0f, 1f) is a direction of 0 in x and 1 in y (up)
-            fireBallBehavior.Launch(new Vector2(0f, 1f));
+            //fireBallBehavior.Launch(new Vector2(0f, 1f));
         }
     }
 
