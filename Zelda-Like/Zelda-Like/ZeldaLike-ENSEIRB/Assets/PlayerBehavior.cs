@@ -186,27 +186,27 @@ public class PlayerBehavior : MonoBehaviour
         {
             ShootFireball('d');
         }
-		if ((Input.GetKeyDown(KeyCode.Keypad1)) && (h_color == HeroColor.RED))
+		if ((Input.GetKeyDown(KeyCode.Alpha1)) && (h_color == HeroColor.RED))
         {
             h_color = HeroColor.NONE;
         }
-		else if (Input.GetKeyDown(KeyCode.Keypad1))
+		else if (Input.GetKeyDown(KeyCode.Alpha1))
         {
             h_color = HeroColor.RED;
         }
-		if ((Input.GetKeyDown(KeyCode.Keypad2)) && (h_color == HeroColor.GREEN))
+		if ((Input.GetKeyDown(KeyCode.Alpha2)) && (h_color == HeroColor.GREEN))
         {
             h_color = HeroColor.NONE;
         }
-		else if (Input.GetKeyDown(KeyCode.Keypad2))
+		else if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             h_color = HeroColor.GREEN;
         }
-		if ((Input.GetKeyDown(KeyCode.Keypad3)) && (h_color == HeroColor.BLUE))
+		if ((Input.GetKeyDown(KeyCode.Alpha3)) && (h_color == HeroColor.BLUE))
         {
             h_color = HeroColor.NONE;
         }
-		else if (Input.GetKeyDown(KeyCode.Keypad3))
+		else if (Input.GetKeyDown(KeyCode.Alpha3))
         {
             h_color = HeroColor.BLUE;
         }
