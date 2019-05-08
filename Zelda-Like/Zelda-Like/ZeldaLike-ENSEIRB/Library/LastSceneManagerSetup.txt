@@ -1,4 +1,4 @@
 sceneSetups:
-- path: C:/Users/Corentin/Documents/ecoles/enseirb-matmeca/gcc/Zelda-Like/Zelda-Like/ZeldaLike-ENSEIRB/Assets/Scenes/MainScene.unity
+- path: Assets/Scenes/MainScene.unity
   isLoaded: 1
   isActive: 1
