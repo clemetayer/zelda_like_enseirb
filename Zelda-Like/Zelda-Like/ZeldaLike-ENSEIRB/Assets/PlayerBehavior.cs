@@ -132,7 +132,6 @@ public class PlayerBehavior : MonoBehaviour
     // physics (i.e. everything not related to RigidBody)
     private void Update()
     {
-
         // If the player presses M, the map will be activated if not on screen
         // or desactivated if already on screen
         if (Input.GetKeyDown(KeyCode.M))
@@ -487,6 +486,10 @@ public class PlayerBehavior : MonoBehaviour
                 m_dialogDisplayer.SetDialog(instantDialog.GetDialog());
             }
         }
+		else if (collision.tag == "Ennemy")
+		{
+			PlayerHealth.curHealth -= 5;
+		}
     }
 
     // This is automatically called by Unity when the gameObject (here the player)

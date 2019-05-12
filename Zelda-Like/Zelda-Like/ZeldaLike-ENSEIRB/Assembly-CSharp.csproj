@@ -56,10 +56,13 @@
      <Compile Include="Assets\AudioManager.cs" />
      <Compile Include="Assets\Dialog.cs" />
      <Compile Include="Assets\DialogManager.cs" />
+     <Compile Include="Assets\EnnemyHealth.cs" />
      <Compile Include="Assets\FireBehavior.cs" />
      <Compile Include="Assets\FollowGameObject.cs" />
+     <Compile Include="Assets\FollowTarget.cs" />
      <Compile Include="Assets\MapCrossBehavior.cs" />
      <Compile Include="Assets\PlayerBehavior.cs" />
+     <Compile Include="Assets\PlayerHealth.cs" />
      <Compile Include="Assets\PositionRegardingPlayer.cs" />
      <Compile Include="Assets\Teleport.cs" />
  <Reference Include="UnityEditor.StandardEvents">

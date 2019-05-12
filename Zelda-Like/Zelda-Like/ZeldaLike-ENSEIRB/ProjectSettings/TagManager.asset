@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - InstantDialog
   - Fireball
+  - Ennemy
   layers:
   - Default
   - TransparentFX
@@ -50,6 +51,9 @@ TagManager:
     locked: 0
   - name: Obstacles
     uniqueID: 3401236465
+    locked: 0
+  - name: Ennemy
+    uniqueID: 4135610387
     locked: 0
   - name: Player
     uniqueID: 250101475
