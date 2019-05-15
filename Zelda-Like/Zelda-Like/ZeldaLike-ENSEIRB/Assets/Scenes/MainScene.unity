@@ -7441,6 +7441,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5a1e921857a9314a8b000b27afe01d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneName: GameOver
+  player: {fileID: 0}
   maxHealth: 100
   healthBarLength: 10
 --- !u!1 &286368726
@@ -26058,7 +26060,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_target: {fileID: 274949966}
-  Speed: 30
+  Speed: 25
 --- !u!58 &436573169
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26151,8 +26153,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb68d8162d6465143b6e9daaf61c7c69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  e_color: 1
   maxHealth: 100
-  curHealth: 100
+  min_damage: 10
+  max_damage: 25
+  ennemy: {fileID: 436573166}
   healthBarLength: 5
 --- !u!1 &471535100
 GameObject:

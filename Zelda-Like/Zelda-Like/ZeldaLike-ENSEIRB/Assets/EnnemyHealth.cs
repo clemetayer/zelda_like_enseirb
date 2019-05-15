@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class EnnemyHealth : MonoBehaviour {
 
+	public HeroColor e_color;
 	public int maxHealth = 100; 
-    public int curHealth = 100; 
+    public static int curHealth = 100; 
+	public int min_damage;
+	public int max_damage;
+	public GameObject ennemy;
      
     public float healthBarLength; 
      
@@ -42,4 +46,23 @@ public class EnnemyHealth : MonoBehaviour {
         
        healthBarLength = (Screen.width / 2) * (curHealth / (float)maxHealth);        
     }
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.tag == "Fireball")
+		{
+			if(PlayerBehavior.h_color == HeroColor.NONE)
+			{
+				curHealth -= min_damage;
+			}
+			else if(PlayerBehavior.h_color == e_color)
+			{
+				curHealth -= max_damage;
+			}
+			if(curHealth <= 0)
+			{
+				Destroy(ennemy);
+			}
+		}
+	}
 }

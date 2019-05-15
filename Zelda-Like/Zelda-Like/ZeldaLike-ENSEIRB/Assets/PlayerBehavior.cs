@@ -16,7 +16,7 @@ public class PlayerBehavior : MonoBehaviour
 {
     public float m_speed = 1f; // Speed of the player when he moves
     private CardinalDirections m_direction; // Current facing direction of the player
-	private HeroColor h_color = HeroColor.NONE; // Sets the base hero color to NONE
+	public static HeroColor h_color = HeroColor.NONE; // Sets the base hero color to NONE
 
     public Sprite m_frontSprite = null;
     public Sprite m_leftSprite = null;

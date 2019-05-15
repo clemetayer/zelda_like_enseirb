@@ -1,14 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour {  
      
+	public string SceneName;
+	public GameObject player;
     public int maxHealth = 100; 
     public static int curHealth = 100; 
-     
+
     public float healthBarLength; 
      
+	public void LoadGameLevel(string SceneName)
+    { 
+		SceneManager.LoadScene(SceneName);     
+	} 
+	
     // Use this for initialization 
     void Start () 
 	{ 
@@ -19,6 +27,11 @@ public class PlayerHealth : MonoBehaviour {
     void Update () 
 	{ 
        AdjustCurrentHealth(0); 
+	   if(curHealth == 0)
+	   {
+		   Destroy(player);
+		   LoadGameLevel(SceneName);
+	   }
     } 
      
     void OnGUI() 
