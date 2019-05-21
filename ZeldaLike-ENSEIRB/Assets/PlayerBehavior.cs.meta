@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: 213970bba2917114b9dedaf0d75211f0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_frontSprite: {instanceID: 0}
+  - m_leftSprite: {instanceID: 0}
+  - m_rightSprite: {instanceID: 0}
+  - m_backSprite: {instanceID: 0}
+  - r_frontSprite: {instanceID: 0}
+  - r_leftSprite: {instanceID: 0}
+  - r_rightSprite: {instanceID: 0}
+  - r_backSprite: {instanceID: 0}
+  - g_frontSprite: {instanceID: 0}
+  - g_leftSprite: {instanceID: 0}
+  - g_rightSprite: {instanceID: 0}
+  - g_backSprite: {instanceID: 0}
+  - b_frontSprite: {instanceID: 0}
+  - b_leftSprite: {instanceID: 0}
+  - b_rightSprite: {instanceID: 0}
+  - b_backSprite: {instanceID: 0}
+  - m_fireBall: {instanceID: 0}
+  - r_fireBall: {instanceID: 0}
+  - g_fireBall: {instanceID: 0}
+  - b_fireBall: {instanceID: 0}
+  - m_map: {instanceID: 0}
+  - m_dialogDisplayer: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
